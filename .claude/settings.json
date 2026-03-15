@@ -1,0 +1,37 @@
+{
+  "defaultMode": "default",
+  "plansDirectory": "plan",
+  "permissions": {
+    "allow": [
+      "Read",
+      "Edit",
+      "Write",
+      "Glob",
+      "Grep",
+      "Bash(git status)",
+      "Bash(git log *)",
+      "Bash(git diff *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git checkout *)",
+      "Bash(git branch *)",
+      "Bash(npm run *)",
+      "Bash(npm install *)",
+      "Bash(node *)",
+      "Bash(python *)",
+      "Bash(ls *)",
+      "Bash(mkdir *)",
+      "Bash(cat *)"
+    ],
+    "ask": [
+      "Bash(git push *)",
+      "Bash(git reset *)",
+      "Bash(git rebase *)"
+    ],
+    "deny": [
+      "Bash(git push --force *)",
+      "Bash(rm -rf *)",
+      "Bash(git reset --hard *)"
+    ]
+  }
+}
